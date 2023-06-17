@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="untitled" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="FileLetterCounter" />
+    <option name="MAIN_CLASS_NAME" value="Distance" />
     <module name="untitled" />
     <method v="2">
       <option name="Make" enabled="true" />
