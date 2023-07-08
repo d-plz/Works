@@ -75,11 +75,15 @@ twoTwo([2, 2, 4]) → true
 twoTwo([2, 2, 4, 2]) → false
 */
     public boolean twoTwo(int[] nums) {
+        boolean hasNeighbor = false;
         for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == 2 && nums[i + 1] == 2) {
-                return true;
-            } else return false;
-        } return false;
+            if (nums[i] == 2) {
+                // check for neighbor
+                if (nums[i + 1] == 2) {
+                    hasNeighbor = true;
+                }
+            }
+            return hasNeighbor;
     }
 
 }
